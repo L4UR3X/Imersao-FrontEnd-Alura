@@ -18,14 +18,14 @@ body {
 	padding: 16px 0 0 16px;
 }
 
-.sidebar__navigation.logo {
+.sidebar__navigation .logo {
 	background: #121212;
 	display: flex;
 	border-radius: 8px;
 	padding: 16px 0 0 16px;
 }
 
-.logo img {
+.sidebar__navigation .logo img {
 	width: 80px;
 }
 
@@ -78,9 +78,8 @@ body {
 }
 
 .library .library__button .fa {
-	font-size: 20 px;
+	font-size: 20px;
 	font-weight: 300;
-	color: #b3b3b3;
 	margin-right: 10px;
 	padding-right: 8px;
 }
@@ -171,7 +170,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: linear-gradient(to right, #d600cb, #52aafc);
+	background: linear-gradient(to right, #ae2896, #509bf5);
 	padding: 15px 40px;
 	display: flex;
 	justify-content: space-between;
